@@ -4,6 +4,8 @@ import heroKeyboardDesktop from "../images/desktop/image-keyboard.jpg"
 import heroKeyboardMobile from "../images/mobile/image-keyboard.jpg"
 
 const Hero = () => {
+  
+
   return (
     <div className="hero flex">
       <div className="hero__content">

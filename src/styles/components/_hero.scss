@@ -1,6 +1,10 @@
 .hero {
   flex-direction: column;
 
+  &__header {
+    font-size: $default-font-size;
+  }
+
   &__image-container {
   }
 

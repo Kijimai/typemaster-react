@@ -36,6 +36,9 @@ body {
 .hero {
   flex-direction: column;
 }
+.hero__header {
+  font-size: 1.6rem;
+}
 .hero__image {
   width: 100%;
 }
