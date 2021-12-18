@@ -1,3 +1,72 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
 
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 5vh 7vw;
+  font-family: "Barlow";
+}
+
+.flex {
+  display: flex;
+}
+
+.navigator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.hero {
+  flex-direction: column;
+}
+.hero__image {
+  width: 100%;
+}
+
+.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: inherit;
+  text-transform: uppercase;
+  border-radius: 0.8rem;
+  border: none;
+  padding: 1.1rem 1.4rem;
+  cursor: pointer;
+  transition: 0.2s background-color ease, 0.2s color ease;
+  line-height: 1.2;
+}
+
+.btn-1 {
+  background-color: #e8eff2;
+}
+.btn-1:hover {
+  background-color: #162441;
+  color: white;
+}
+
+.btn-2 {
+  background-color: #f26818;
+  color: white;
+}
+.btn-2:hover {
+  background-color: #ff9b61;
+}
 
 /*# sourceMappingURL=app.css.map */

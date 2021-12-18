@@ -1,11 +1,12 @@
 import React from "react"
 import Navigator from "./Navigator"
-
+import Hero from "./Hero"
 const Main = () => {
   return (
-    <div>
+    <main>
       <Navigator />
-    </div>
+      <Hero />
+    </main>
   )
 }
 

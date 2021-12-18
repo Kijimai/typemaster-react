@@ -1,0 +1,15 @@
+.navigator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6rem;
+
+  @include responsive(900) {
+    margin-bottom: 8rem;
+  }
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}

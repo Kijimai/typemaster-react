@@ -1,0 +1,25 @@
+@mixin responsive($breakpoint) {
+  @if breakpoint == 1400 {
+    @media screen and (min-width: 87.5em) {
+      @content;
+    }
+  }
+
+  @if breakpoint == 1200 {
+    @media screen and (min-width: 75em) {
+      @content;
+    }
+  }
+
+  @if breakpoint == 900 {
+    @media screen and (min-width: 56.25em) {
+      @content;
+    }
+  }
+
+  @if breakpoint == 600 {
+    @media screen and (min-width: 37.5em) {
+      @content;
+    }
+  }
+}

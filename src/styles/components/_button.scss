@@ -1,0 +1,30 @@
+.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: inherit;
+  text-transform: uppercase;
+  border-radius: 0.8rem;
+  border: none;
+  padding: 1.1rem 1.4rem;
+  cursor: pointer;
+  transition: 0.2s background-color ease, 0.2s color ease;
+  line-height: 1.2;
+}
+
+.btn-1 {
+  background-color: hsl($color-grey-light);
+
+  &:hover {
+    background-color: hsl($color-dark);
+    color: hsl($color-white);
+  }
+}
+
+.btn-2 {
+  background-color: hsl($color-orange);
+  color: hsl($color-white);
+
+  &:hover {
+    background-color: hsl($color-orange-light);
+  }
+}

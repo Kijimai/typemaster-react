@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; //10px
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 5vh 7vw;
+  font-family: "Barlow";
+
+  @include responsive(600) {
+    padding: 1vh 10vw;
+  }
+}
+
+.flex {
+  display: flex;
+}
