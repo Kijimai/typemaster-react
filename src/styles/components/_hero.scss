@@ -1,6 +1,29 @@
 .hero {
   position: relative;
-  flex-direction: column;
+
+  &__row {
+    display: flex;
+    gap: 0 2rem;
+    overflow-x: hidden;
+  }
+
+  &__row.row-1 {
+    flex-direction: column;
+  }
+
+  &__row.row-2 {
+  }
+
+  &__row.row-3 {
+    flex-direction: column;
+    text-align: center;
+    gap: 2.4rem;
+  }
+
+  &__content {
+    flex-direction: column;
+    gap: 2.4rem;
+  }
 
   &__header {
     font-size: 4.8rem;
@@ -8,26 +31,48 @@
     font-weight: 900;
     margin-bottom: 2.4rem;
     line-height: 1;
+    color: hsl($color-dark);
   }
 
-  &__paragraph {
-    font-size: 1.6rem;
-    color: hsl($color-grey-dark);
-    line-height: 1.6;
-    margin-bottom: 3.2rem;
+  &__sub-header {
+    color: hsl($color-dark);
+    font-size: 3.2rem;
+    font-weight: 900;
   }
 
-  &__image-container {
+  &__image {
+    width: 100%;
+    max-width: 37.5rem;
+    max-height: 33.1rem;
     transform: translateX(7vw);
-
+    position: relative;
     @include responsive(600) {
       transform: translateX(10vw);
     }
   }
 
-  &__image {
-    width: 100%;
-    max-height: 33.1rem;
+  .image-1 {
+  }
+
+  .image-2 {
+    width: 50%;
+    object-fit: cover;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-image: linear-gradient(hsl($color-orange), hsl($color-orange));
+      // background-blend-mode: hsl($color-orange) sreen;
+      z-index: 2;
+    }
+  }
+
+  .image-3 {
   }
 
   .pre-order {

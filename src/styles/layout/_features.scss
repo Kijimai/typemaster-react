@@ -1,0 +1,24 @@
+.section-features {
+  flex-direction: column;
+  text-align: center;
+
+  .feature {
+    &__icon-container {
+      background-color: hsl($color-orange);
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      height: 6.5rem;
+      width: 6.5rem;
+      border-radius: 1.6rem;
+      margin-bottom: 4.8rem;
+    }
+
+    &__header {
+      text-transform: uppercase;
+      font-size: 2.4rem;
+      font-weight: 900;
+      margin-bottom: 2.4rem;
+    }
+  }
+}
