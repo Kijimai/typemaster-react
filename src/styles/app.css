@@ -50,6 +50,18 @@ body {
   margin-bottom: 2.4rem;
 }
 
+.footer {
+  text-align: center;
+}
+.footer__copyright {
+  color: #7b8bad;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.footer__copyright span {
+  font-weight: 700;
+}
+
 .navigator {
   display: flex;
   justify-content: space-between;

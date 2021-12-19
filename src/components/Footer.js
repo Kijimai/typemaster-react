@@ -1,10 +1,12 @@
-import React from 'react'
+import React from "react"
 
 const Footer = () => {
   return (
-    <div>
-      
-    </div>
+    <footer className="footer">
+      <p className="footer__copyright">
+        <span>Typemaster 2021</span>&nbsp; | &nbsp;All Rights Reserved
+      </p>
+    </footer>
   )
 }
 

@@ -1,0 +1,12 @@
+.footer {
+  text-align: center;
+
+  &__copyright {
+    color: hsl($color-grey-dark);
+    font-size: 1.6rem;
+    font-weight: 600;
+    span {
+      font-weight: 700;
+    }
+  }
+}
